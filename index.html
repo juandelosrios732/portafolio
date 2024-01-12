@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/home.css">
     <title>Portafolio Juan Guillermo</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     
@@ -11,20 +11,22 @@
 
 <body>
 
-    <header>
+    <!-- Inicio Header -->
+    <header> 
         <!-- Div es etiqueta de contenido general -->
         <div class="image-container" id="logo">
-            <img src="./images/logo.png" alt="logo">
+            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
         </div>
         <div class="navbar-container">
             <nav class="navbar">
-                <h2 class="navbar-item"><a href="">SUBTÍTULO</a></h2>
-                <h2 class="navbar-item"><a href="">SUBTÍTULO</a></h2>
-                <h2 class="navbar-item"><a href="">SUBTÍTULO</a></h2>
+                <h2 class="navbar-item"><a href="./pages/proyectos/proyectos.html">PROYECTOS</a></h2>
+                <h2 class="navbar-item"><a href="./index.html">ACERCA DE</a></h2>
+                <h2 class="navbar-item"><a href="./index.html">CONTACTO</a></h2>
                 
             </nav>
         </div>
     </header>
+    <!-- Fin Header -->
 
     <section id="hero">
 
@@ -32,7 +34,7 @@
             <img src="./images/fondo.jpg" alt="fondo">
         </div>
 
-        <div class="informacion-contenedor">
+        <div class="informacion-contenedor container">
 
             <div class="image-conatiner" id="foto">
                 <img src="./images/foto.jpg" alt="foto">
@@ -42,39 +44,39 @@
                 <h1>Juan Guillermo De Los Ríos Velásquez</h1>
                 <!-- <span>@flor.defango</span> -->
 
-                <p>Programación Web FullStack</p>
+                <h3>Programación Web FullStack</h3>
             </div>
 
         </div>
 
-
     </section>
 
-    <main>
-<!-- 
-        <p>Soy desarrollador web Full Stack, realizando el curso de desarrollo no-code con WordPress.</p> -->
-
+ 
+    <!-- Inicio Footer -->
+    <footer>
         <ul class="social-icons">
             <li><a href="https://www.linkedin.com/in/juan-de-los-r%C3%ADos-a5aa10285/" target="_blank" id="linkedin" class="social-icon">
-                <img src="./images/LinkedIn.jpg" alt="LinkedIn">
+                <!-- <img src="../../images/LinkedIn.jpg" alt="LinkedIn"> -->
+                <iconify-icon class="footer-icon" icon="akar-icons:linkedin-fill"></iconify-icon>
+
                 </a>
             </li>
             <li><a href="https://github.com/juandelosrios732" target="_blank" id="github" class="social-icon">
-                <img src="./images/github.jpg" alt="Github">
+                <!-- <img src="../../images/github.jpg" alt="Github"> -->
+                <iconify-icon class="footer-icon" icon="mdi:github"></iconify-icon>
                 </a>
             </li>
-            <li><a href="https://www.instagram.com/" target="_blank" id="instagram" class="social-icon">
-                <img src="./images/Icono de Instagram.jpg" alt="Instagram">
+            <!-- <li><a href="https://www.instagram.com/" target="_blank" id="instagram" class="social-icon">
+                <img src="../../images/Icono de Instagram.jpg" alt="Instagram">
                 </a>
             </li>
             <li><a href="https://twitter.com/?lang=es" target="_blank" id="twitter" class="social-icon">
-                <img src="./images/twitter.jpg" alt="Twitter">
+                <img src="../../images/twitter.jpg" alt="Twitter">
                 </a>
-            </li>
-            
+            </li> -->
         </ul>
-
-    </main>
-
+    </footer>
+    <!-- Fin Footer -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
