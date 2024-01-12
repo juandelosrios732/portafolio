@@ -5,15 +5,14 @@
 
 
 :root{
-    --blue-solid: #28AABC;
-    --pink-solid: #D728CA;
+    --blue-solid: #1a94dd;
+    --pink-solid: #ca3568;
+    --yellow-solid: #f3e93f;
+    --orange-solid: #de3c1d;
+    --lila-solid: #a94ab7;
     --withe-solid: #fff;
-    --bg-solid: #010101;
+    --bg-solid: #070607;
 }
-
-
-
-
 
 
 /* Normalización */
@@ -30,13 +29,13 @@
 
 html {
     font-family: 'Jura', sans-serif;
-    background: #010101;
-    color: #fff;
+    background: var(--bg-solid);
+    color: var(--withe-solid);
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--withe-solid);
 }
 
 img {
@@ -62,7 +61,7 @@ img {
 /* Estilos del Header*/
 
 header{
-    background: #010101;
+    background: var(--bg-solid);
     padding: 10px 50px;
     display: flex;
     justify-content: space-between;
