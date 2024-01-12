@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+
+/* Normalización */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; modelo de caja que permite que no se expandan los elementos hacia afuera, sino que se organizan los estilos hacia adentro, sin modificar el tamaño real de la caja */
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Jura', sans-serif;
+    background: #010101;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilos generales */
+
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    /* width mide el porcentaje de su contenedor padre */
+    width: 100%;
+}
+
+
+/* Estilos del Header*/
+
+header{
+    background: #010101;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logo {
+    max-width: 300px;
+}
+
+
+
+/* Estilos barra de navegación */
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+/* Estilos del Hero */
+
+#hero {
+    position: relative;
+
+}
+
+#hero #fondo img {
+    display: inline-block;
+    width: 100%;
+    /* height: auto; */
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+    gap: 50px;
+}
+
+#hero .informacion-contenedor #foto img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+#hero .informacion-contenedor .informacion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: calc(100% - 200px);
+}
+
+/* Estilos del Main */
+
+main {
+    padding: 100px;
+}
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+main .social-icons .social-icon img {
+    max-width: 100px;
+    
+}
