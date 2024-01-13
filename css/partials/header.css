@@ -1,0 +1,30 @@
+/* Estilos del Header*/
+
+header{
+    background: var(--bg-solid);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    max-width: 300px;
+}
+
+/* Estilos barra de navegación */
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.navbar-item :hover{
+    color: var(--pink-solid);
+    transition: all .22s ease-in-out;
+}

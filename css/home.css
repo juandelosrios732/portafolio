@@ -41,5 +41,33 @@
     width: calc(100% - 200px);
 }
 
+.info-tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
 
+.info-tecnologias-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.info-tecnologias-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-tecnologias-item iconify-icon {
+    font-size: 70px;
+}
+
+.info-tecnologias-item iconify-icon:hover {
+    transform: scale(1.2);
+    transition: all .22s ease-in-out;
+} 
 

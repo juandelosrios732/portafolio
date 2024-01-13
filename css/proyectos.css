@@ -3,7 +3,6 @@
 
 
 
-
 /* Estilos Main */
 
 
@@ -19,17 +18,13 @@
     cursor: pointer;
     margin-bottom: 50px;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .section-title {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.section-title-link {
-    color: var(--pink-solid);
-
 }
 
 .section-subtitle {
@@ -71,17 +66,44 @@
     margin-left: 30px;
 }
 
-.section-title-link {
+
+.section-links {
+    display: flex;
+    gap: 20px;
+}
+
+.section-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    background-color: var(--pink-solid);
+    padding: 15px;
+    border-radius: 100px;
+}
+
+.section-link:hover {
+    transform: scale(1.2);
+    transition: all .22s ease-in-out;
+}
+
+.section-link-icon {
+    font-size: 30px;
 }
 
 
-.section-item-cover {
+
+
+.section-item-images{
+    display: flex;
+    align-items: center;
+}
+
+.section-item-images-cover {
     max-width: 300px;
     /* height: 200px; */
 }
+
+
 
 
 /* Acordeon */

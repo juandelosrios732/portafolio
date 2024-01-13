@@ -1,0 +1,23 @@
+/* Estilos del Footer */
+
+footer {
+    padding: 100px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 60px;
+}
+
+
+.footer-icon {
+    font-size: 120px;
+}
+
+.social-icon :hover {
+    color: var(--pink-solid);
+    transition: all .22s ease-in-out;
+}
